@@ -6,11 +6,13 @@ import javax.persistence.*;
 @Entity
 public class UserActivity {
 
+
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     @Column(length = 1000)
     protected Integer id;
     protected String type = null;
+    protected String user_name = null;
 
     @Lob
     @Column(columnDefinition="text")
@@ -22,9 +24,10 @@ public class UserActivity {
     @Column(columnDefinition="text")
     protected String content = null;
 
-    @Lob
+    protected String from_source = null;
+
     @Column(columnDefinition="text")
-    protected String last_link = null;
+    protected String map_location = null;
 
     public String getType() {
         return type;
@@ -32,6 +35,14 @@ public class UserActivity {
 
     public void setType(String type) {
         this.type = type;
+    }
+
+    public String getUser_name() {
+        return user_name;
+    }
+
+    public void setUser_name(String user_name) {
+        this.user_name = user_name;
     }
 
     public String getLink() {
@@ -58,11 +69,19 @@ public class UserActivity {
         this.content = content;
     }
 
-    public String getLast_link() {
-        return last_link;
+    public String getFrom_source() {
+        return from_source;
     }
 
-    public void setLast_link(String last_link) {
-        this.last_link = last_link;
+    public void setFrom_source(String from_source) {
+        this.from_source = from_source;
+    }
+
+    public String getMap_location() {
+        return map_location;
+    }
+
+    public void setMap_location(String map_location) {
+        this.map_location = map_location;
     }
 }

@@ -14,9 +14,13 @@ public class FetchClientDatafromZip {
     private UserActivityRepository userActivityRepository;
 
     public void fetchDatafromZip() throws IOException {
+
+        //Need to change, just for test
+        String user_name="Kaiwen Zhu";
+
         String filepath=System.getProperty("user.dir");
-        String python_file = filepath+"\\src\\main\\python\\Data.py";
-        String arguments = "python "+python_file;
+        String python_file = filepath+"\\src\\main\\python\\Data.py ";
+        String arguments = "python "+ python_file + user_name;
         //String arguments = "python C:\\BigDataProject\\ProjectWeb\\src\\main\\java\\com\\bigdata\\service\\python\\Data.py";
         try{
             Process process = Runtime.getRuntime().exec(arguments);

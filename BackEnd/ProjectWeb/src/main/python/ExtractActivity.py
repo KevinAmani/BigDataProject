@@ -17,12 +17,15 @@ class Extract_Activity:
             self.amount = 0
             
         
-        def Extract_Data(self, path, Datas):
+        def Extract_Data(self, path, Datas, user_name):
             soup = BeautifulSoup(open(path),"html.parser")
             Soups = soup.find_all('div','outer-cell mdl-cell mdl-cell--12-col mdl-shadow--2dp')
             for s in range(len(Soups)):
                 data = dict()
-    
+
+                ## User_Name
+                data["user_name"] = user_name
+
                 ## 0: The Devcie name or Website Name
                 try:
                     data["type"] = Soups[s].find('p','mdl-typography--title').get_text().strip(' ')
@@ -54,26 +57,24 @@ class Extract_Activity:
                     data["content"] = None
                 try:
                     Detail = Soups[s].find('div','content-cell mdl-cell mdl-cell--12-col mdl-typography--caption')
-    
-                    ## 4: The detail
-                    Items = Detail.find_all('b')
                     Txt = Detail.text
-                    NowTxt = Txt
-    
-                    for i in range(len(Items)):
-                        First = NowTxt.strip(Items[i].text).strip(u'\u2003')
-                        if i == len(Items)-2:
-                            Array = First.split(Items[i+1].text)
-                            Array[0] = Array[0].strip(u'\u2003')
-                            Array[1] = Array[1].strip(u'\u2003')
-                            data["last_link"] = data["last_link"] + Array
-                            break
-                        else:
-                            Array = First.split(Items)
-                            data["last_link"] = data["last_link"] + Array[0].strip(u'\u2003')
-                            NowTxt = Array[1]
-                except:
-                    data["last_link"] = None
 
+                    D = Txt.split(u"\u2003")
+                    if len(D)>=2:
+                        From = D[1]
+                        From = From.strip("Locations:")
+                        data["from_source"] = From
+                    else:
+                        data["from_source"] = None
+                except:
+                    data["from_source"] = None
+
+                try:
+                    ## 4: The detail
+                    Location = Detail.a.text
+                    ## The location from google map
+                    data["map_location"] = Location
+                except:
+                    data["map_location"] = None
                 Datas.append(data)
             return Datas
