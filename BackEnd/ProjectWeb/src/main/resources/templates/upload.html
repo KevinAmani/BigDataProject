@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" 
+    xmlns:th="http://www.thymeleaf.org" 
+    xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+	<meta charset="UTF-8" />
+	<title>upload file</title>
+	<link type="text/css" th:href="@{bootstrap.min.css}" rel="stylesheet" />
+	<link type="text/css" th:href="@{webuploader.css}" rel="stylesheet" />
+</head>
+<body >
+
+	<div id="uploader" class="wu-example" >
+		<!--For save file-->
+		<div id="thelist" class="uploader-list" style="width:500px;"></div>
+		<div class="btns">
+			<div id="picker">Choose The File</div>
+		</div>
+	</div>
+
+<script th:src="@{jquery-3.1.1.min.js}"></script> 
+<script th:src="@{md5.js}"></script>
+<script th:src="@{webuploader.min.js}"></script>
+<script type="text/javascript">
+	//Reference:https://zhuanlan.zhihu.com/p/29526454
+	var md5File; 
+	//Listen to the process of uploading
+	WebUploader.Uploader.register({  
+	    "before-send-file":"beforeSendFile",  // Before uploading
+	    "before-send":"beforeSend",  // Before each uploading
+	    "after-send-file": "afterSendFile"  // after each completing
+	},{  
+	    //1:check if it is exist
+	    beforeSendFile:function(file){  
+	    	var deferred = WebUploader.Deferred();
+	    	md5File = hex_md5(file.name+file.size);//create identifier by the name of file
+	    	$.ajax({  
+	            type:"POST",  
+	            url:"/checkFile",  
+	            data:{  
+	                md5File: md5File, //Identifer
+	            },  
+	            async: false,
+	            dataType:"json",  
+	            success:function(response){  
+	                if(response){  //The file exist
+	                		$('#' + file.id).find('p.state').text("file exist");
+	                }else{  
+	                    deferred.resolve();  //not exist
+	                }  
+	            }  
+	        } , function (jqXHR, textStatus, errorThrown) { //Faile
+	        	deferred.resolve();
+	        } );  
+	        return deferred.promise(); 
+	    },  
+	    //2. Check if piece exist
+	    beforeSend:function(block){  
+	        var deferred = WebUploader.Deferred();  
+	        $.ajax({  
+	            type:"POST",  
+	            url:"/checkChunk",  
+	            data:{  
+	                md5File: md5File,  //unique identifier
+	                chunk:block.chunk,  //peice identifier
+	            },  
+	            dataType:"json",  
+	            success:function(response){  
+	                if(response){  
+	                    deferred.reject(); //exist, jump
+	                }else{  
+	                    deferred.resolve();  //not exist, resend
+	                }  
+	            }  
+	        }, function (jqXHR, textStatus, errorThrown) { //
+	        	deferred.resolve();
+	        });  
+	        return deferred.promise();  
+	    },
+	    //3:Call the end back to merge file
+	    afterSendFile: function (file) {        
+	        var chunksTotal = Math.ceil(file.size / (5*1024*1024));
+	        if (chunksTotal >= 1) {
+	            //合并请求
+	            var deferred = WebUploader.Deferred();  
+	            $.ajax({
+	                type: "POST",
+	                url: "/merge",
+	                data: {
+	                	name: file.name,
+	                	md5File: md5File,
+	                    chunks: chunksTotal
+	                },
+	                cache: false,
+	                async: false,  //
+	                dataType: "json",  
+		            success:function(response){  
+		                if(response){  
+		                	$('#' + file.id).find('p.state').text('upload success');
+		                	$('#' + file.id).find('.progress').fadeOut();
+		                }else{  
+		                	$('#' + file.id).find('p.state').text('merge error');
+			            	deferred.reject();
+		                }  
+		            }  
+	            })
+	            return deferred.promise(); 
+	        }
+	    } 
+	}); 
+
+	var uploader = WebUploader.create({
+		auto: true,//
+	    swf: '../static/Uploader.swf',//
+	    server: '/upload',//
+	    pick: '#picker',//
+	    chunked:true,//
+	    chunkSize:5*1024*1024,//5M
+	    chunkRetry: 3,//
+	});
+	
+	//Uploading parameters
+	uploader.on('uploadBeforeSend', function (obj, data, headers) {
+		 data.md5File=md5File;
+     }); 
+	
+	// file in the list
+	uploader.on( 'fileQueued', function( file ) {
+		$("#picker").hide();//hink the blank
+		$("#thelist").append( '<div id="' + file.id + '" class="item">' +
+	        '<h4 class="info">' + file.name + '</h4>' +
+	        '<p class="state"></p>' +
+	    '</div>' );
+	});
+
+	// progress bar
+	uploader.on( 'uploadProgress', function( file, percentage ) {
+	    var $li = $( '#'+file.id ),
+	        $percent = $li.find('.progress .progress-bar');
+
+	    //
+	    if ( !$percent.length ) {
+	        $percent = $('<div class="progress progress-striped active">' +
+	          '<div class="progress-bar" role="progressbar" style="width: 0%"></div>' +
+	        '</div>').appendTo( $li ).find('.progress-bar');
+	    }
+	    $li.find('p.state').text('Uploading');
+	    $percent.css( 'width', percentage * 100 + '%' );
+	});
+	
+</script>
+</body>
+</html>
