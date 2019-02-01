@@ -49,6 +49,10 @@ public class ExtractActivityController {
             e.printStackTrace();
         }
     }
+
+    public void unZipUserFile(){
+
+    }
     /**
     public static void main(String[] args) throws IOException {
         ExtractActivityController activity = new ExtractActivityController();

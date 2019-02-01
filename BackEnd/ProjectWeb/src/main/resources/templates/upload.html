@@ -3,6 +3,7 @@
     xmlns:th="http://www.thymeleaf.org" 
     xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
 	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
 <head>
 	<meta charset="UTF-8" />
 	<title>upload file</title>
@@ -32,10 +33,11 @@
 	    "after-send-file": "afterSendFile"  // after each completing
 	},{  
 	    //1:check if it is exist
-	    beforeSendFile:function(file){  
-	    	var deferred = WebUploader.Deferred();
+	    beforeSendFile:function(file){ //Function name
+	        var deferred = WebUploader.Deferred();//parameter of deferred
 	    	md5File = hex_md5(file.name+file.size);//create identifier by the name of file
-	    	$.ajax({  
+	    	//The request structure
+			$.ajax({
 	            type:"POST",  
 	            url:"/checkFile",  
 	            data:{  
@@ -80,7 +82,7 @@
 	    },
 	    //3:Call the end back to merge file
 	    afterSendFile: function (file) {        
-	        var chunksTotal = Math.ceil(file.size / (5*1024*1024));
+	        var chunksTotal = Math.ceil(file.size / (3*1024*1024));
 	        if (chunksTotal >= 1) {
 	            //合并请求
 	            var deferred = WebUploader.Deferred();  
@@ -116,7 +118,7 @@
 	    server: '/upload',//
 	    pick: '#picker',//
 	    chunked:true,//
-	    chunkSize:5*1024*1024,//5M
+	    chunkSize:3*1024*1024,//3M
 	    chunkRetry: 3,//
 	});
 	
