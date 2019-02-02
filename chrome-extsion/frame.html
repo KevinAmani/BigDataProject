@@ -1,21 +1,84 @@
+<html lang="html">
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Recommendation Page</title>
+</head>
+<script type="text/javascript" src="bootstrap.bundle.js"></script>
+<script type="text/javascript" src="frame.js"></script>
 <style>
     html, body, iframe, h2 {
         margin: 0;
         border: 0;
         padding: 0;
         display: block;
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        height: 100%;
         background: white;
         color: black;
+        overflow: hidden;
+        border: green;
     }
+
     h2 {
         height: 50px;
         font-size: 20px;
     }
+
     iframe {
         height: calc(100vh - 50px);
     }
+
+    div#container {
+        overflow: hidden;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+    #header {
+        height: 20px;
+        background: #0d47a1;
+        color: white;
+        padding: 2px;
+    }
 </style>
-<h2>Displaying https://robwu.nl in a frame</h2>
-<iframe src="https://www.gwu.edu/"></iframe>
+<div class="row justify-content-between" id="header">
+    <div class="col-sm-8">
+        Just in time Recommendation System
+    </div>
+    <div class="col-sm-4" id="close">
+        X
+    </div>
+</div>
+<div class="col-sm" id="text">
+</div>
+<div class="row" id="container">
+    <div class="row">
+        <div class="col-sm" style="width: 250px; height: 250px;">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Calling the base constructor in C#</h5>
+                    <p class="card-text">If I inherit from a base class and want to pass something from the constructor
+                        ...</p>
+                    <a href="https://getbootstrap.com/docs/4.0/components/card/" target="_blank"
+                       class="btn btn-primary">Go
+                        there</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm" style="width: 250px; height: 250px;">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Calling the base constructor in C#</h5>
+                    <p class="card-text">If I inherit from a base class and want to pass something from the constructor
+                        ...</p>
+                    <a href="https://getbootstrap.com/docs/4.0/components/card/" target="_blank"
+                       class="btn btn-primary">Go
+                        there</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</html>
+
