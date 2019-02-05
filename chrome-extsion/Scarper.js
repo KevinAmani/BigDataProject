@@ -41,8 +41,6 @@
     function test(){
         alert("Hello");
     }
-    GM_openInTab("https://website.net");
-    GM_registerMenuCommand("hello", test, "h");
 
     getURL();
     console.log(data)
