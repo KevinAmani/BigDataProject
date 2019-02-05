@@ -21,15 +21,10 @@ public class ExtractActivityController {
     private UserActivityRepository userActivityRepository;
 
     @GetMapping("/savedata")
-    public String saveActivity(){
-        fetchDatafromFile();
-        return "Success";
-    }
-
     public void fetchDatafromFile(){
         try{
             String filepath=System.getProperty("user.dir");
-            String data_file = filepath+"\\src\\main\\python\\data\\result\\ActivityData.txt";
+            String data_file = filepath+File.separator+"src"+File.separator+"main"+File.separator+"python"+File.separator+"data"+File.separator+"result"+File.separator+"ActivityData.txt";
             File file = new File(data_file);
             JsonReader reader = new JsonReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
             Gson gson = new GsonBuilder().create();
@@ -53,10 +48,5 @@ public class ExtractActivityController {
     public void unZipUserFile(){
 
     }
-    /**
-    public static void main(String[] args) throws IOException {
-        ExtractActivityController activity = new ExtractActivityController();
-        activity.fetchDatafromFile();
-    }
-     **/
+
 }

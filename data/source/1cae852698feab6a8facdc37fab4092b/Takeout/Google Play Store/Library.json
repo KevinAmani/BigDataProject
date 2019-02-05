@@ -1,0 +1,432 @@
+[{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Subscription",
+      "title": "Unknown Item"
+    },
+    "acquisitionTime": "2018-04-18T16:40:51.663Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Movie",
+      "title": "Justice League"
+    },
+    "acquisitionTime": "2018-05-10T01:42:26.698Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Movie",
+      "title": "The Cabin In The Woods"
+    },
+    "acquisitionTime": "2018-08-26T22:02:22.090Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Bank of America Mobile Banking"
+    },
+    "acquisitionTime": "2018-09-14T21:18:24.089Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "NYTimes - Latest News"
+    },
+    "acquisitionTime": "2018-09-14T21:21:36.765Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Fidelity Investments"
+    },
+    "acquisitionTime": "2018-09-14T21:22:48.382Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Robinhood: Invest in Stock, Crypto, ETF \u0026 Coin"
+    },
+    "acquisitionTime": "2018-09-14T21:22:53.215Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Instagram"
+    },
+    "acquisitionTime": "2018-09-14T21:23:13.341Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Indeed Job Search"
+    },
+    "acquisitionTime": "2018-09-14T21:23:30.775Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Slack"
+    },
+    "acquisitionTime": "2018-09-14T21:23:53.246Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play services"
+    },
+    "acquisitionTime": "2018-09-14T22:37:11.059Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "The Washington Post Classic"
+    },
+    "acquisitionTime": "2018-09-15T00:46:27.514Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "The Economist: World News"
+    },
+    "acquisitionTime": "2018-09-15T00:46:49.881Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "美豹金融-美股港股开户交易和股票行情软件"
+    },
+    "acquisitionTime": "2018-09-15T00:56:06.040Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Stocks, Forex, Finance, Markets: Portfolio \u0026 News"
+    },
+    "acquisitionTime": "2018-09-18T00:50:01.525Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Webull: Invest Smart, Trade Free - Stocks, ETFs."
+    },
+    "acquisitionTime": "2018-09-18T00:50:26.339Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "HelloTalk — Chat, Speak \u0026 Learn Foreign Languages"
+    },
+    "acquisitionTime": "2018-09-18T00:50:57.843Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Pokémon GO"
+    },
+    "acquisitionTime": "2018-09-19T00:09:45.066Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Clock"
+    },
+    "acquisitionTime": "2018-09-20T17:51:42.514Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play Books - Ebooks, Audiobooks, and Comics"
+    },
+    "acquisitionTime": "2018-09-20T17:51:54.240Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play Games"
+    },
+    "acquisitionTime": "2018-09-20T17:52:09.252Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play Movies \u0026 TV"
+    },
+    "acquisitionTime": "2018-09-20T17:52:29.156Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play Music"
+    },
+    "acquisitionTime": "2018-09-20T17:52:49.133Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Text-to-Speech"
+    },
+    "acquisitionTime": "2018-09-20T17:55:09.117Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Android Accessibility Suite"
+    },
+    "acquisitionTime": "2018-09-20T17:55:23.021Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Contacts"
+    },
+    "acquisitionTime": "2018-09-20T17:55:31.478Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Android System WebView"
+    },
+    "acquisitionTime": "2018-09-20T17:55:37.911Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Cloud Print"
+    },
+    "acquisitionTime": "2018-09-20T17:55:56.425Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "WhatsApp Messenger"
+    },
+    "acquisitionTime": "2018-09-20T21:39:16.605Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Steam"
+    },
+    "acquisitionTime": "2018-10-11T03:22:56.193Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Twitter"
+    },
+    "acquisitionTime": "2018-10-20T16:24:44.773Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Uber Eats: Local Food Delivery"
+    },
+    "acquisitionTime": "2018-10-24T22:08:14.563Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Guitar Tuner Free - GuitarTuna"
+    },
+    "acquisitionTime": "2018-10-26T20:34:22.650Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Pay"
+    },
+    "acquisitionTime": "2018-10-30T21:42:32.718Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Slay the Spire Database"
+    },
+    "acquisitionTime": "2018-11-14T04:04:50.073Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Night of the Full Moon"
+    },
+    "acquisitionTime": "2018-11-14T05:33:50.466Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Quora"
+    },
+    "acquisitionTime": "2018-11-16T19:34:35.699Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Amazon Shopping"
+    },
+    "acquisitionTime": "2018-11-16T19:35:11.842Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Planet Bomber!"
+    },
+    "acquisitionTime": "2018-11-20T03:13:25.501Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Gboard - the Google Keyboard"
+    },
+    "acquisitionTime": "2018-11-22T02:11:54.249Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Plague Inc."
+    },
+    "acquisitionTime": "2018-11-23T03:23:31.588Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Missile Dude RPG: Tap Tap Missile"
+    },
+    "acquisitionTime": "2018-11-23T03:24:01.659Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "YouTube"
+    },
+    "acquisitionTime": "2018-11-26T05:31:56.199Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "ParkMobile - Find Parking"
+    },
+    "acquisitionTime": "2018-11-27T22:06:31.925Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Lords Mobile: Battle of the Empires - Strategy RPG"
+    },
+    "acquisitionTime": "2018-12-10T20:12:44.836Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "HBO NOW: Stream TV \u0026 Movies"
+    },
+    "acquisitionTime": "2019-01-15T17:55:21.505Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Home"
+    },
+    "acquisitionTime": "2019-02-01T05:23:23.205Z"
+  }
+},
+{
+  "libraryDoc": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Chrome: Fast \u0026 Secure"
+    },
+    "acquisitionTime": "2019-02-01T05:24:20.061Z"
+  }
+}]

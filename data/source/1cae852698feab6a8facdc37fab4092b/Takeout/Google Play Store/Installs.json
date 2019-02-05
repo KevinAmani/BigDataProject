@@ -1,0 +1,936 @@
+[{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "掌阅 iReader"
+    },
+    "firstInstallationTime": "2018-09-14T21:17:06.243Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-02-01T05:24:57.358Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "com.google.android.apps.multidevice.client"
+    },
+    "firstInstallationTime": "2018-12-13T17:33:58.089005Z",
+    "deviceAttribute": {
+      "model": "Rockchip RK3288 Chromebook",
+      "carrier": "No carrier",
+      "manufacturer": "google",
+      "deviceDisplayName": "google Rockchip RK3288 Chromebook"
+    },
+    "lastUpdateTime": "2018-12-14T22:14:15.956Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "com.google.android.apps.multidevice.client"
+    },
+    "firstInstallationTime": "2018-12-13T17:10:32.323006Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-12-13T17:11:26.790Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "com.google.android.apps.multidevice.client"
+    },
+    "firstInstallationTime": "2018-09-20T17:51:48.396037Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-09-20T17:56:34.326Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Bank of America Mobile Banking"
+    },
+    "firstInstallationTime": "2018-09-14T21:18:47.757Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2018-12-20T16:23:03.631Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "NYTimes - Latest News"
+    },
+    "firstInstallationTime": "2018-09-14T21:22:07.592Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-01-30T11:44:27.524Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Fidelity Investments"
+    },
+    "firstInstallationTime": "2018-09-14T21:23:04.107Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-01-12T11:43:11.771Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Robinhood: Invest in Stock, Crypto, ETF \u0026 Coin"
+    },
+    "firstInstallationTime": "2018-11-07T04:11:16.650Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-01-31T12:05:04.100Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Instagram"
+    },
+    "firstInstallationTime": "2018-09-14T21:23:42.421Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-01-30T11:44:27.524Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Indeed Job Search"
+    },
+    "firstInstallationTime": "2018-09-14T21:23:42.421Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2018-09-29T04:16:19.897Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Slack"
+    },
+    "firstInstallationTime": "2018-09-14T21:24:36.993Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-02-01T05:21:07.732Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play services"
+    },
+    "firstInstallationTime": "2018-12-13T17:33:58.089007Z",
+    "deviceAttribute": {
+      "model": "Rockchip RK3288 Chromebook",
+      "carrier": "No carrier",
+      "manufacturer": "google",
+      "deviceDisplayName": "google Rockchip RK3288 Chromebook"
+    },
+    "lastUpdateTime": "2018-12-13T17:34:39.029Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play services"
+    },
+    "firstInstallationTime": "2018-12-13T17:10:32.323008Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-12-13T17:11:26.790Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play services"
+    },
+    "firstInstallationTime": "2018-09-20T17:51:48.396042Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-09-20T17:54:21.970Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "The Washington Post Classic"
+    },
+    "firstInstallationTime": "2018-09-15T00:47:20.570Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-01-31T12:06:55.856Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "The Economist: World News"
+    },
+    "firstInstallationTime": "2018-09-15T00:47:20.570001Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-01-18T19:01:04.533Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "美豹金融-美股港股开户交易和股票行情软件"
+    },
+    "firstInstallationTime": "2018-09-15T00:57:22.144Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2018-09-15T00:57:22.144Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Webull: Invest Smart, Trade Free - Stocks, ETFs."
+    },
+    "firstInstallationTime": "2018-09-18T00:50:58.412Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-01-31T12:05:04.100Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "HelloTalk — Chat, Speak \u0026 Learn Foreign Languages"
+    },
+    "firstInstallationTime": "2019-01-26T16:20:00.478Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-01-30T10:45:06.369Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Clock"
+    },
+    "firstInstallationTime": "2018-12-13T17:33:58.089001Z",
+    "deviceAttribute": {
+      "model": "Rockchip RK3288 Chromebook",
+      "carrier": "No carrier",
+      "manufacturer": "google",
+      "deviceDisplayName": "google Rockchip RK3288 Chromebook"
+    },
+    "lastUpdateTime": "2018-12-13T17:33:58.089Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Clock"
+    },
+    "firstInstallationTime": "2018-12-13T17:10:32.323001Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-12-13T17:10:32.323Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Clock"
+    },
+    "firstInstallationTime": "2018-09-20T17:52:22.840001Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-09-20T17:52:22.840Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play Books - Ebooks, Audiobooks, and Comics"
+    },
+    "firstInstallationTime": "2018-12-13T17:33:58.089Z",
+    "deviceAttribute": {
+      "model": "Rockchip RK3288 Chromebook",
+      "carrier": "No carrier",
+      "manufacturer": "google",
+      "deviceDisplayName": "google Rockchip RK3288 Chromebook"
+    },
+    "lastUpdateTime": "2018-12-13T17:33:58.089Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play Books - Ebooks, Audiobooks, and Comics"
+    },
+    "firstInstallationTime": "2018-12-13T17:10:32.323Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-12-13T17:10:32.323Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play Books - Ebooks, Audiobooks, and Comics"
+    },
+    "firstInstallationTime": "2018-09-20T17:52:22.840Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-09-20T17:52:22.840Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play Games"
+    },
+    "firstInstallationTime": "2018-11-23T03:25:38.275Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2018-12-15T02:53:21.973Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play Games"
+    },
+    "firstInstallationTime": "2018-12-13T17:33:58.089003Z",
+    "deviceAttribute": {
+      "model": "Rockchip RK3288 Chromebook",
+      "carrier": "No carrier",
+      "manufacturer": "google",
+      "deviceDisplayName": "google Rockchip RK3288 Chromebook"
+    },
+    "lastUpdateTime": "2018-12-14T22:13:21.511Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play Games"
+    },
+    "firstInstallationTime": "2018-12-13T17:10:32.323003Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-12-13T17:10:32.323Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play Games"
+    },
+    "firstInstallationTime": "2018-09-20T17:51:48.396047Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-09-20T17:53:27.243Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play Movies \u0026 TV"
+    },
+    "firstInstallationTime": "2018-12-13T19:04:03.538Z",
+    "deviceAttribute": {
+      "model": "Rockchip RK3288 Chromebook",
+      "carrier": "No carrier",
+      "manufacturer": "google",
+      "deviceDisplayName": "google Rockchip RK3288 Chromebook"
+    },
+    "lastUpdateTime": "2018-12-13T19:04:03.538Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play Movies \u0026 TV"
+    },
+    "firstInstallationTime": "2018-12-13T17:10:32.323004Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-12-13T17:10:32.323Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play Movies \u0026 TV"
+    },
+    "firstInstallationTime": "2018-09-20T17:53:27.243002Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-09-20T17:53:27.243Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play Music"
+    },
+    "firstInstallationTime": "2018-12-13T17:33:58.089002Z",
+    "deviceAttribute": {
+      "model": "Rockchip RK3288 Chromebook",
+      "carrier": "No carrier",
+      "manufacturer": "google",
+      "deviceDisplayName": "google Rockchip RK3288 Chromebook"
+    },
+    "lastUpdateTime": "2018-12-13T17:33:58.089Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play Music"
+    },
+    "firstInstallationTime": "2018-12-13T17:10:32.323002Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-12-13T17:10:32.323Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Play Music"
+    },
+    "firstInstallationTime": "2018-09-20T17:53:27.243Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-09-20T17:53:27.243Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Text-to-Speech"
+    },
+    "firstInstallationTime": "2018-12-13T17:33:58.089010Z",
+    "deviceAttribute": {
+      "model": "Rockchip RK3288 Chromebook",
+      "carrier": "No carrier",
+      "manufacturer": "google",
+      "deviceDisplayName": "google Rockchip RK3288 Chromebook"
+    },
+    "lastUpdateTime": "2018-12-14T22:13:21.511Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Text-to-Speech"
+    },
+    "firstInstallationTime": "2018-09-20T17:51:48.396050Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-09-20T17:55:43.054Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Text-to-Speech"
+    },
+    "firstInstallationTime": "2018-12-13T17:10:32.323011Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-12-13T17:11:26.790Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Android Accessibility Suite"
+    },
+    "firstInstallationTime": "2018-12-13T17:33:58.089008Z",
+    "deviceAttribute": {
+      "model": "Rockchip RK3288 Chromebook",
+      "carrier": "No carrier",
+      "manufacturer": "google",
+      "deviceDisplayName": "google Rockchip RK3288 Chromebook"
+    },
+    "lastUpdateTime": "2018-12-14T22:14:15.956Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Android Accessibility Suite"
+    },
+    "firstInstallationTime": "2018-09-20T17:51:48.396045Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-09-20T17:55:43.054Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Android Accessibility Suite"
+    },
+    "firstInstallationTime": "2018-12-13T17:10:32.323009Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-12-13T17:11:26.790Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Contacts"
+    },
+    "firstInstallationTime": "2018-12-13T17:33:58.089006Z",
+    "deviceAttribute": {
+      "model": "Rockchip RK3288 Chromebook",
+      "carrier": "No carrier",
+      "manufacturer": "google",
+      "deviceDisplayName": "google Rockchip RK3288 Chromebook"
+    },
+    "lastUpdateTime": "2018-12-14T22:14:15.956Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Contacts"
+    },
+    "firstInstallationTime": "2018-09-20T17:51:48.396038Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-09-20T17:55:43.054Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Contacts"
+    },
+    "firstInstallationTime": "2018-12-13T17:10:32.323007Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-12-13T17:11:26.790Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Android System WebView"
+    },
+    "firstInstallationTime": "2018-12-13T17:33:58.089011Z",
+    "deviceAttribute": {
+      "model": "Rockchip RK3288 Chromebook",
+      "carrier": "No carrier",
+      "manufacturer": "google",
+      "deviceDisplayName": "google Rockchip RK3288 Chromebook"
+    },
+    "lastUpdateTime": "2018-12-14T22:14:15.956Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Android System WebView"
+    },
+    "firstInstallationTime": "2018-09-20T17:51:48.396051Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-09-20T17:56:34.326Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Android System WebView"
+    },
+    "firstInstallationTime": "2018-12-13T17:10:32.323012Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-12-13T17:11:26.790Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Android System WebView"
+    },
+    "firstInstallationTime": "2018-09-14T21:17:06.243Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-02-01T05:24:57.358Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Cloud Print"
+    },
+    "firstInstallationTime": "2018-12-13T17:33:58.089004Z",
+    "deviceAttribute": {
+      "model": "Rockchip RK3288 Chromebook",
+      "carrier": "No carrier",
+      "manufacturer": "google",
+      "deviceDisplayName": "google Rockchip RK3288 Chromebook"
+    },
+    "lastUpdateTime": "2018-12-14T22:14:15.956Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Cloud Print"
+    },
+    "firstInstallationTime": "2018-09-20T17:51:48.396036Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-09-20T17:56:34.326Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Cloud Print"
+    },
+    "firstInstallationTime": "2018-12-13T17:10:32.323005Z",
+    "deviceAttribute": {
+      "deviceDisplayName": "Unknown Device"
+    },
+    "lastUpdateTime": "2018-12-13T17:11:26.790Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "WhatsApp Messenger"
+    },
+    "firstInstallationTime": "2018-09-20T21:41:48.330Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-01-26T16:19:19.286Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Twitter"
+    },
+    "firstInstallationTime": "2018-10-24T20:45:22.867Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-01-29T13:31:19.946Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Uber Eats: Local Food Delivery"
+    },
+    "firstInstallationTime": "2018-10-24T22:08:48.957Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-01-31T12:06:15.508Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Guitar Tuner Free - GuitarTuna"
+    },
+    "firstInstallationTime": "2018-10-26T20:34:53.770Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-01-25T03:38:02.234Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Pay"
+    },
+    "firstInstallationTime": "2018-10-30T21:43:22.548Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-01-31T12:05:37.258Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Quora"
+    },
+    "firstInstallationTime": "2018-11-16T19:35:12.716Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-01-26T16:19:19.286Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Gboard - the Google Keyboard"
+    },
+    "firstInstallationTime": "2018-11-22T02:12:26.041Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2018-12-12T05:09:53.004Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "YouTube"
+    },
+    "firstInstallationTime": "2018-11-26T05:32:47.924Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-02-01T05:22:17.775Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "ParkMobile - Find Parking"
+    },
+    "firstInstallationTime": "2018-11-27T22:07:23.371Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2018-12-22T05:33:31.260Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "HBO NOW: Stream TV \u0026 Movies"
+    },
+    "firstInstallationTime": "2019-01-15T17:56:15.821Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-01-15T17:56:15.821Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Home"
+    },
+    "firstInstallationTime": "2019-02-01T05:24:21.421001Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-02-01T05:24:21.421Z"
+  }
+},
+{
+  "install": {
+    "doc": {
+      "documentType": "Android Apps",
+      "title": "Google Chrome: Fast \u0026 Secure"
+    },
+    "firstInstallationTime": "2019-02-01T05:24:21.421Z",
+    "deviceAttribute": {
+      "model": "vivo NEX A",
+      "carrier": "AT\u0026T",
+      "manufacturer": "vivo",
+      "deviceDisplayName": "vivo vivo NEX A"
+    },
+    "lastUpdateTime": "2019-02-01T05:24:57.358Z"
+  }
+}]

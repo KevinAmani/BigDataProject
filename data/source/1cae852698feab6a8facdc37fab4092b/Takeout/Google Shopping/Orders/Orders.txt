@@ -1,0 +1,22 @@
+{
+  "orderId": "G-SFO-0389-40-5436",
+  "orderDatetime": "2018-09-14T22:39:07.692Z",
+  "merchantName": "EZEE.com",
+  "items": [{
+    "description": "Apple MMEF2AM/A AirPods Wireless Bluetooth Headset for iPhones with iOS 10 or Later (White)",
+    "quantity": 1,
+    "price": "$149.00",
+    "discount": "$0.00",
+    "tax": "$0.00",
+    "state": "CANCELED"
+  }],
+  "orderStatus": "CANCELED",
+  "orderTotal": "$0.00",
+  "orderDiscount": "$0.00",
+  "orderFees": "$0.00",
+  "orderAdjustment": "$0.00",
+  "orderRefund": "",
+  "orderRecipient": "Kaiwen Zhu",
+  "deliveryAddress": "2000 S EADS ST APT 223, ARLINGTON, VA 22202, United States",
+  "billingInstrument": "VISA-9749"
+}

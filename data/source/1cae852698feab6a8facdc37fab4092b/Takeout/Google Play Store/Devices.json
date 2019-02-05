@@ -1,0 +1,100 @@
+[{
+  "device": {
+    "mostRecentData": {
+      "carrierName": "AT\u0026T",
+      "playStoreClientVersion": 81302300,
+      "manufacturer": "vivo",
+      "modelName": "vivo NEX A",
+      "deviceName": "PD1806",
+      "productName": "PD1806",
+      "retailBrand": "vivo",
+      "totalMemoryBytes": "5920370688",
+      "nativePlatform": ["arm64-v8a", "armeabi-v7a", "armeabi"],
+      "deviceIpCountry": "US",
+      "userLocale": "zh_CN",
+      "buildFingerprint": "vivo/PD1806/PD1806:8.1.0/OPM1.171019.026/compil12072004:user/release-keys",
+      "androidSdkVersion": "27"
+    },
+    "dataAtTimeOfUserPlayActivity": {
+      "carrierName": "AT\u0026T",
+      "manufacturer": "vivo",
+      "modelName": "vivo NEX A",
+      "deviceName": "PD1806",
+      "productName": "PD1806",
+      "retailBrand": "vivo",
+      "nativePlatform": ["arm64-v8a", "armeabi-v7a", "armeabi"],
+      "deviceIpCountry": "US",
+      "userLocale": "zh_CN",
+      "androidSdkVersion": "27"
+    },
+    "deviceRegistrationTime": "2018-07-01T19:23:16.621Z",
+    "userAddedOnDeviceTime": "2018-09-14T21:16:39.273Z",
+    "lastTimeDeviceActive": "2019-01-29T20:42:47.998863Z"
+  }
+},
+{
+  "device": {
+    "mostRecentData": {
+      "carrierName": "No carrier",
+      "playStoreClientVersion": 81282300,
+      "manufacturer": "google",
+      "modelName": "Rockchip RK3288 Chromebook",
+      "deviceName": "jerry_cheets",
+      "productName": "jerry",
+      "retailBrand": "google",
+      "totalMemoryBytes": "2112995328",
+      "nativePlatform": ["armeabi-v7a", "armeabi"],
+      "deviceIpCountry": "US",
+      "userLocale": "en_US",
+      "buildFingerprint": "google/jerry/jerry_cheets:7.1.1/R70-11021.81.0/5133027:user/release-keys",
+      "androidSdkVersion": "25"
+    },
+    "deviceRegistrationTime": "2018-12-13T17:32:38.967Z",
+    "userAddedOnDeviceTime": "2018-12-13T17:32:38.968Z",
+    "lastTimeDeviceActive": "2018-12-14T22:12:38.339999Z"
+  }
+},
+{
+  "device": {
+    "mostRecentData": {
+      "carrierName": "No carrier",
+      "playStoreClientVersion": 81272300,
+      "manufacturer": "google",
+      "modelName": "Rockchip RK3288 Chromebook",
+      "deviceName": "jerry_cheets",
+      "productName": "jerry",
+      "retailBrand": "google",
+      "totalMemoryBytes": "2112995328",
+      "nativePlatform": ["armeabi-v7a", "armeabi"],
+      "deviceIpCountry": "US",
+      "userLocale": "en_US",
+      "buildFingerprint": "google/jerry/jerry_cheets:7.1.1/R69-10895.56.0/5006116:user/release-keys",
+      "androidSdkVersion": "25"
+    },
+    "deviceRegistrationTime": "2018-12-13T17:09:05.835Z",
+    "userAddedOnDeviceTime": "2018-12-13T17:09:05.836Z",
+    "lastTimeDeviceActive": "2018-12-13T17:12:16.705471Z"
+  }
+},
+{
+  "device": {
+    "mostRecentData": {
+      "carrierName": "No carrier",
+      "playStoreClientVersion": 81161900,
+      "manufacturer": "google",
+      "modelName": "Rockchip RK3288 Chromebook",
+      "deviceName": "jerry_cheets",
+      "productName": "jerry",
+      "retailBrand": "google",
+      "totalMemoryBytes": "2112995328",
+      "nativePlatform": ["armeabi-v7a", "armeabi"],
+      "deviceIpCountry": "US",
+      "userLocale": "en_US",
+      "buildFingerprint": "google/jerry/jerry_cheets:7.1.1/R66-10452.85.0/4753385:user/release-keys",
+      "androidSdkVersion": "25"
+    },
+    "deviceRegistrationTime": "2018-09-20T17:51:22.475Z",
+    "userAddedOnDeviceTime": "2018-09-20T17:51:22.475Z",
+    "lastTimeDeviceActive": "2018-09-20T17:52:56.175663Z"
+  }
+}]

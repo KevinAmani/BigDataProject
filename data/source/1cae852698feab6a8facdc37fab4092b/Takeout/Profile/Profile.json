@@ -1,0 +1,11 @@
+{
+  "name": {
+    "givenName": "Kevin",
+    "familyName": "Zhu",
+    "formattedName": "Kevin Zhu"
+  },
+  "displayName": "Kevin Zhu",
+  "gender": {
+    "type": "male"
+  }
+}

@@ -2,7 +2,7 @@ import csv
 from py2neo import Graph, Node, cypher, Relationship, NodeMatcher
 
 #Type your own account name and password at here
-graph_db = Graph("http://192.168.1.173:7474", username="kevin", password="19950314")
+graph_db = Graph("http://localhost:7474", username="neo4j", password="19950314")
 ##graph_db.delete_all()
 
 with open("user_activity.csv", "rb") as file:

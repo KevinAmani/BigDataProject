@@ -25,7 +25,8 @@
 <script th:src="@{webuploader.min.js}"></script>
 <script type="text/javascript">
 	//Reference:https://zhuanlan.zhihu.com/p/29526454
-	var md5File; 
+	var md5File = null;
+	var filename = null;
 	//Listen to the process of uploading
 	WebUploader.Uploader.register({  
 	    "before-send-file":"beforeSendFile",  // Before uploading
@@ -35,6 +36,7 @@
 	    //1:check if it is exist
 	    beforeSendFile:function(file){ //Function name
 	        var deferred = WebUploader.Deferred();//parameter of deferred
+			filename = file.name;
 	    	md5File = hex_md5(file.name+file.size);//create identifier by the name of file
 	    	//The request structure
 			$.ajax({
@@ -101,6 +103,7 @@
 		                if(response){  
 		                	$('#' + file.id).find('p.state').text('upload success');
 		                	$('#' + file.id).find('.progress').fadeOut();
+                            $.post('/unzip',{md5File:md5File,filename:filename})
 		                }else{  
 		                	$('#' + file.id).find('p.state').text('merge error');
 			            	deferred.reject();
@@ -150,7 +153,12 @@
 	    $li.find('p.state').text('Uploading');
 	    $percent.css( 'width', percentage * 100 + '%' );
 	});
+
+
 	
+</script>
+<script>
+
 </script>
 </body>
 </html>

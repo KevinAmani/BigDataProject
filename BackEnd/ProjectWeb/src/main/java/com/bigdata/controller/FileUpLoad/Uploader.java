@@ -74,7 +74,6 @@ public class Uploader {
 	public Boolean checkChunk(@RequestParam(value = "md5File") String md5File,
                               @RequestParam(value = "chunk") Integer chunk) {
 		Boolean exist = false;
-		String filepath=System.getProperty("user.dir");
 		String store_path = File.separator+"data"+File.separator;
 		String data_file = filepath+store_path+"temp"+File.separator;
 		String path = data_file+md5File+File.separator;//The link where does the piece save
@@ -95,7 +94,6 @@ public class Uploader {
 	public Boolean upload(@RequestParam(value = "file") MultipartFile file,
                           @RequestParam(value = "md5File") String md5File,
                           @RequestParam(value = "chunk",required= false) Integer chunk) { //The temp file starts from 0
-		String filepath=System.getProperty("user.dir");
         String store_path = File.separator+"data"+File.separator;
 		String data_file = filepath+store_path+"temp"+File.separator;
 		String path = data_file+md5File+File.separator;
@@ -132,7 +130,6 @@ public class Uploader {
     public Boolean merge(@RequestParam(value = "chunks",required =false) Integer chunks,
                          @RequestParam(value = "md5File") String md5File,
                          @RequestParam(value = "name") String name) throws Exception {
-		String filepath=System.getProperty("user.dir");
         String store_path = File.separator+"data"+File.separator;
 		String data_path = filepath+store_path;
 
@@ -167,22 +164,6 @@ public class Uploader {
 			fileOutputStream.close();
 		}
 
-		//Unzip the file
-		try{
-			UnZip unZip = new UnZip();
-
-			//The link where the document save
-			String save_Path = data_path +"zip"+File.separator+md5File+File.separator+name;
-			String unzip_Path = data_path +"source"+File.separator+md5File;
-            //String save_Path = filepath + "//src//main//python//data//"+"//zip//" + md5File+name;
-            //String unzip_Path = filepath + "//src//main//python//data//"+"source";
-			if(!unZip.unzip(save_Path, unzip_Path)){
-				return false;
-			}
-
-		}catch(Exception e){
-			return false;
-		}
 		return true;
 	}
 }
