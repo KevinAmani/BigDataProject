@@ -4,6 +4,7 @@ package com.bigdata.model.UserGoogleZip;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "USER_ACTIVITY")
 public class UserActivity {
 
 
@@ -18,6 +19,7 @@ public class UserActivity {
     @Column(columnDefinition="text")
     protected String link = null;
 
+    //Need to be exchanged to time type
     protected String time = null;
 
     @Lob

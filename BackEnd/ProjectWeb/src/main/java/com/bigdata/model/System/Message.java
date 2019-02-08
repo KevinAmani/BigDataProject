@@ -1,22 +1,27 @@
-package com.bigdata.model.UserBehavior;
+package com.bigdata.model.System;
 
+import com.bigdata.model.UserBehavior.Behavior;
+
+/**
+ * It is the API structure that used to every data ouput.
+ */
 
 
 public class Message {
     private int id;
     private String error="0";
     private String type;
-    private Value value;
+    private Behavior behavior;
 
 
     public Message(){
     }
 
 
-    public Message(int id, String type, Value value){
+    public Message(int id, String type, Behavior behavior){
         this.id = id;
         this.type = type;
-        this.value = value;
+        this.behavior = behavior;
     }
 
     public int getId() {
@@ -35,12 +40,12 @@ public class Message {
         this.type = type;
     }
 
-    public Value getValue() {
-        return value;
+    public Behavior getBehavior() {
+        return behavior;
     }
 
-    public void setValue(Value value) {
-        this.value = value;
+    public void setBehavior(Behavior behavior) {
+        this.behavior = behavior;
     }
 
     public String getError() {

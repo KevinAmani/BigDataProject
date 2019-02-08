@@ -19,32 +19,43 @@ def main(argv):
     :param argv[2] the temp save path "C:\\Studio\\BigDataProject/data/result/md5File"
     :return
     """
+	#Windows
+	system_separator = "\\"
+	
+	#Linux
+	#system_separator = "/"
+	
     #  str = " "
     # user_name = str.join(argv)
     user_name = argv[0]
-    # address = os.path.split(os.path.realpath(__file__))[0]
+    
+	# the path that save the data
     address = argv[1]
-    file_save = argv[2]
-    file_name = "MyActivity.html"
-    # base_path = address + "\\data\\source\\Takeout\\My Activity\\"
-
-    # Linux
-    # base_path = address +"/Takeout/My Activity";
+    
+	# the path of the unzip file
+	file_save = argv[2]
+    
+	file_name = "MyActivity.html"
 
     # Windows
-    base_path = address +"\\Takeout\\My Activity";
+    base_path = address + system_separator + "Takeout" + system_separator + "My Activity";
 
+	# the class of the extracter
     Activity_Data = list()
     E_Activity = ExtractActivity.Extract_Activity()
+	
+	# get the file names
     dirs = os.listdir(base_path)
     for name in range(len(dirs)):
-       # Activity_Data = E_Activity.Extract_Data(base_path+"/"+dirs[name]+"/"+file_name, Activity_Data, user_name)
-        Activity_Data = E_Activity.Extract_Data(base_path+"\\"+dirs[name]+"\\"+file_name, Activity_Data, user_name)
+		# The file name of subfile
+		# subfile_path = 
+		subfile_path = base_path + system_separator + dirs[name] + system_separator + file_name
+        Activity_Data = E_Activity.Extract_Data(subfile_path, Activity_Data, user_name)
+		
     Activity_Data = json.dumps(Activity_Data)
-    f = open(file_save + "\\ActivityData.txt",'w')
+    f = open(file_save + system_separator + "ActivityData.txt",'w')
     f.write(Activity_Data)
     f.close
-    # print(name)
 
 if __name__ == "__main__":
     main(sys.argv[1:])

@@ -1,7 +1,10 @@
 package com.bigdata.controller.CollectBehavior;
 
 
+import com.bigdata.model.System.Message;
 import com.bigdata.model.UserBehavior.*;
+import com.bigdata.repository.UserBehavior.UrlBehaviorRepository;
+import com.bigdata.service.UserBehavior.UrlBehaviorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,22 +16,16 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class CollectUrlBehaviorController {
 
     @Autowired
-    private UrlBehaviorRepository urlBehaviorRepository;
-    private Value value;
+    private UrlBehaviorService urlBehaviorService;
+    private Behavior behavior;
 
-    @PostMapping("/url")
-    public @ResponseBody
-    String addNewUrlBehavior(@RequestBody Message message){
-        value = message.getValue();
-        UrlBehavior behavior = new UrlBehavior(value);
-        urlBehaviorRepository.save(behavior);
+    @PostMapping("/url_behavior")
+    public @ResponseBody String addNewUrlBehavior(@RequestBody Message message){
+        behavior = message.getBehavior();
+        UrlBehavior urlbehavior = new UrlBehavior();
+        urlBehaviorService.saveUrlBehavior(urlbehavior);
         return "Save";
     }
 
 
-    @GetMapping(path="/url/all")
-    public @ResponseBody Iterable<UrlBehavior> getAllUrlBehavior() {
-        // This returns a JSON or XML with the users
-        return urlBehaviorRepository.findAll();
-    }
 }

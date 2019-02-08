@@ -1,6 +1,9 @@
 package com.bigdata.controller.CollectBehavior;
 
+import com.bigdata.model.System.Message;
 import com.bigdata.model.UserBehavior.*;
+import com.bigdata.repository.UserBehavior.SelectBehaviorRepository;
+import com.bigdata.service.UserBehavior.SelectBehaviorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,24 +15,19 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class CollectSelectBehaviorController {
 
     @Autowired
-    private SelectBehaviorRepository selectBehaviorRepository;
-    private Value value;
+    private SelectBehaviorService selectBehaviorService;
+    private Behavior behavior;
 
 
-    @PostMapping("/select")
+    @PostMapping("/select_behavior")
     public @ResponseBody String addNewSelectBehavior(@RequestBody Message message){
-        value = message.getValue();
-        SelectBehavior behavior = new SelectBehavior(value);
-        selectBehaviorRepository.save(behavior);
+        behavior = message.getBehavior();
+        SelectBehavior selectbehavior = new SelectBehavior();
+        selectbehavior.setBehavior(behavior);
+        selectBehaviorService.saveSelectBehavior(selectbehavior);
+
+        //what to return
         return "Save";
-    }
-
-
-
-    @GetMapping(path="/select/all")
-    public @ResponseBody Iterable<SelectBehavior> getAllSelectBehavior() {
-        // This returns a JSON or XML with the users
-        return selectBehaviorRepository.findAll();
     }
 
 }

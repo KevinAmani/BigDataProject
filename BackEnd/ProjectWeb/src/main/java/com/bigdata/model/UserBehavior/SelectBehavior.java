@@ -1,36 +1,27 @@
 package com.bigdata.model.UserBehavior;
 
+/**
+ * This entity represents the user's behavior of  selecting.
+ */
 
 import javax.persistence.*;
-import java.util.Date;
 
 @Entity
-public class SelectBehavior extends Value{
+@Table(name = "SELECT_BEHAVIOR")
+public class SelectBehavior{
 
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private Integer id;
-    private String username;
-    private String type;
-    private String text;
-    private Date timestamp;
 
+    private Behavior behavior;
 
-    public SelectBehavior() {
+    @Embedded
+    public Behavior getBehavior() {
+        return behavior;
     }
 
-    public SelectBehavior(Value value){
-        this.username = value.getUsername();
-        this.type = value.getType();
-        this.text = value.getText();
-        this.timestamp = value.getTimestamp();
+    public void setBehavior(Behavior behavior) {
+        this.behavior = behavior;
     }
-
-    public SelectBehavior(String username, String type, String text, Date timestamp) {
-        this.username = username;
-        this.type = type;
-        this.text = text;
-        this.timestamp = timestamp;
-    }
-
 }

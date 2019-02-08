@@ -1,4 +1,4 @@
-package com.bigdata.service;
+package com.bigdata.other;
 
 import java.io.*;
 import java.util.zip.ZipEntry;
@@ -9,7 +9,8 @@ import java.util.zip.ZipInputStream;
 public class UnZip {
 
     /*
-     * @param srcZipFile name
+     * @param srcZipFile The path where zip saved
+     * @param saveZipPath The path where unzip saved
      * @return  true/false
      * reference: https://my.oschina.net/lovesesun/blog/76823
      */
@@ -58,7 +59,5 @@ public class UnZip {
         }
         return true;
     }
-
-
 
 }

@@ -5,33 +5,21 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-public class UrlBehavior extends Value{
+@Table(name = "URL_BEHAVIOR")
+public class UrlBehavior extends Behavior {
 
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private Integer id;
-    private String username;
-    private String type;
-    private String url;
-    private Date timestamp;
 
+    private Behavior behavior;
 
-    public UrlBehavior() {
-
+    @Embedded
+    public Behavior getBehavior() {
+        return behavior;
     }
 
-    public UrlBehavior(Value value){
-        this.username = value.getUsername();
-        this.type = value.getType();
-        this.url = value.getText();
-        this.timestamp = value.getTimestamp();
+    public void setBehavior(Behavior behavior) {
+        this.behavior = behavior;
     }
-
-    public UrlBehavior(String username, String type, String text, Date timestamp) {
-        this.username = username;
-        this.type = type;
-        this.text = text;
-        this.timestamp = timestamp;
-    }
-
 }
